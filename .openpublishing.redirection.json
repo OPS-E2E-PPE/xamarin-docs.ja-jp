@@ -215,7 +215,7 @@
     {
       "source_path": "docs/xamarin-forms/platform/plugins.md",
       "redirect_url": "/xamarin/essentials"
-    },	
+    },
     {
       "source_path": "docs/xamarin-forms/platform/gtk.md",
       "redirect_url": "/xamarin/xamarin-forms/platform/other/gtk"
@@ -243,7 +243,7 @@
     {
       "source_path": "docs/xamarin-forms/get-started/index.md",
       "redirect_url": "/xamarin/get-started"
-    },	
+    },
     {
       "source_path": "docs/xamarin-forms/get-started/installation.md",
       "redirect_url": "/xamarin/get-started/installation"
@@ -255,11 +255,11 @@
     {
       "source_path": "docs/xamarin-forms/get-started/hello-xamarin-forms/index.md",
       "redirect_url": "/xamarin/get-started"
-    },	
+    },
     {
       "source_path": "docs/xamarin-forms/get-started/hello-xamarin-forms/quickstart.md",
       "redirect_url": "/xamarin/get-started/quickstarts/single-page"
-    },	
+    },
     {
       "source_path": "docs/xamarin-forms/get-started/hello-xamarin-forms/deepdive.md",
       "redirect_url": "/xamarin/get-started/quickstarts/deepdive"
@@ -271,7 +271,7 @@
     {
       "source_path": "docs/xamarin-forms/get-started/hello-xamarin-forms-multiscreen/quickstart.md",
       "redirect_url": "/xamarin/get-started/quickstarts/multi-page"
-    },	
+    },
     {
       "source_path": "docs/xamarin-forms/get-started/hello-xamarin-forms-multiscreen/deepdive.md",
       "redirect_url": "/xamarin/get-started/quickstarts/deepdive"
@@ -283,7 +283,7 @@
     {
       "source_path": "docs/cross-platform/get-started/installation/index.md",
       "redirect_url": "/xamarin/get-started/installation"
-    },	
+    },
     {
       "source_path": "docs/cross-platform/get-started/installation/firewall.md",
       "redirect_url": "/xamarin/get-started/installation/firewall"
@@ -291,7 +291,7 @@
     {
       "source_path": "docs/cross-platform/get-started/installation/uninstalling-xamarin.md",
       "redirect_url": "/xamarin/get-started/installation/uninstalling-xamarin"
-    },	
+    },
     {
       "source_path": "docs/cross-platform/get-started/installation/windows-preview.md",
       "redirect_url": "/xamarin/get-started/installation/windows-preview"
@@ -321,12 +321,32 @@
       "redirect_url": "/xamarin/ios/get-started/installation/windows/connecting-to-mac"
     },
     {
-        "source_path": "docs/xamarin-forms/app-fundamentals/navigation/pop-ups.md",
-        "redirect_url": "/xamarin/xamarin-forms/user-interface/pop-ups"
+      "source_path": "docs/xamarin-forms/app-fundamentals/navigation/pop-ups.md",
+      "redirect_url": "/xamarin/xamarin-forms/user-interface/pop-ups"
     },
     {
-        "source_path": "docs/ios/platform/introduction-to-ios11/get-started.md",
-        "redirect_url": "/xamarin/ios/platform/introduction-to-ios11"
+      "source_path": "docs/ios/platform/introduction-to-ios11/get-started.md",
+      "redirect_url": "/xamarin/ios/platform/introduction-to-ios11"
+    },
+    {
+      "source_path": "docs/cross-platform/internals/index.md",
+      "redirect_url": "/xamarin/cross-platform/internals/available-assemblies/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/cross-platform/troubleshooting/questions/visualstudio-2017-rc.md",
+      "redirect_url": "/xamarin/cross-platform/troubleshooting/questions/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/graphics-games/skiasharp/index.md",
+      "redirect_url": "/xamarin/xamarin-forms/user-interface/graphics/skiasharp/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/mac/get-started/installation.md",
+      "redirect_url": "/visualstudio/mac/installation/",
+      "redirect_document_id": false
     }
   ]
 }
