@@ -4,19 +4,28 @@
       "docset_name": "e2eppe-xamarin-docs",
       "build_source_folder": "docs",
       "build_output_subfolder": "e2eppe-xamarin-docs",
-      "locale": "ja-jp",
+      "locale": "ja-JP",
       "monikers": [],
       "moniker_ranges": [],
-      "open_to_public_contributors": false,
+      "xref_query_tags": [
+        "/dotnet"
+      ],
+      "open_to_public_contributors": true,
       "type_mapping": {
-        "Conceptual": "Content"
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content",
+        "ContextObject": "Toc",
+        "ZonePivotGroups": "Toc"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
     }
   ],
   "notification_subscribers": [],
-  "sync_notification_subscribers": [],
+  "sync_notification_subscribers": [
+    "ceicnotifications@microsoft.com"
+  ],
   "branches_to_filter": [
     "master",
     "live"
@@ -25,7 +34,7 @@
   "git_repository_branch_open_to_public_contributors": "live",
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
-  "need_preview_pull_request": true,
+  "need_preview_pull_request": false,
   "contribution_branch_mappings": {
     "master-sxs": "master",
     "live-sxs": "live"
@@ -33,13 +42,19 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.ja-jp",
+      "url": "https://github.com/Microsoft/templates.docs.msft.ja-JP",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_themes.pdf",
+      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
       "branch": "master",
       "branch_mapping": {}
     },
     {
       "path_to_root": "_repo.en-us",
-      "url": "https://github.com/OPS-E2E-PPE/xamarin-docs",
+      "url": "https://github.com/OPS-E2E-PPE/xamarin-docs-pr",
       "branch": "live",
       "branch_mapping": {
         "live": "live",
@@ -47,11 +62,16 @@
       }
     }
   ],
-  "branch_target_mapping": {},
+  "branch_target_mapping": {
+    "live-sxs": [
+      "Publish",
+      "Pdf"
+    ],
+    "live": [
+      "Publish",
+      "Pdf"
+    ]
+  },
   "need_generate_pdf_url_template": true,
-  "targets": {
-    "pdf": {
-      "template_folder": "_themes.pdf"
-    }
-  }
+  "targets": {}
 }
