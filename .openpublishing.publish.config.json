@@ -28,8 +28,7 @@
   ],
   "branches_to_filter": [
     "master",
-    "live",
-    "docs-build-v3"
+    "live"
   ],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/xamarin-docs.ja-JP",
   "git_repository_branch_open_to_public_contributors": "live",
@@ -38,8 +37,7 @@
   "need_preview_pull_request": false,
   "contribution_branch_mappings": {
     "master-sxs": "master",
-    "live-sxs": "live",
-    "docs-build-v3-sxs":"docs-build-v3"
+    "live-sxs": "live"
   },
   "dependent_repositories": [
     {
